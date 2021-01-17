@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navCls{
+    background: #0db4bd;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar-brand{
+    color: white;
+}
+.nav-link{
+    color: white;
+}
+.pHolder{
+    width: 35%;
+    margin: 0 auto;
+}
+.detailCls{
+    text-align: center;
+    line-height: 0%;
+}
+.detailCls p{
+    color: gray;
+    font-size: 12px;
+}
+.cHolder{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    font-size: small;
+    border: none;
+}
+.card-title{
+    font-size: medium;
+}
+.card-text{
+    text-align: start;
+}
+.btnClsP{
+    border: 1px solid rgb(109, 106, 106);
+}
+.burgerDom{
+    display: none;
+}
+.burger{
+    margin-top: 4px;
+    display: none;
+}
+.bSingle{
+    background:#0a7277;
+    height: 5px;
+    width: 40px;
+    margin-top: 1.5px;
+}
+.drpMenu{
+    display: none;
+    overflow: hidden;
+    position: relative;
+}
+.drpMenu ul{
+    list-style: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .burgerDom{
+        display: block;
+    }
+    .burger{
+        display: block;
+    }
+    .navMenu{
+        display: none;
+    }
+  }
